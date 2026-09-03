@@ -155,56 +155,45 @@ export default function Hero() {
 
                 {/* Masks for Hatch Blocks behind letters */}
                 <mask id="hatch-box-1">
-                  <rect x="290" y="30" width="160" height="95" fill="white" />
+                  <rect x="470" y="25" width="200" height="95" fill="white" />
                 </mask>
                 <mask id="hatch-box-2">
-                  <rect x="470" y="160" width="160" height="95" fill="white" />
+                  <rect x="410" y="160" width="200" height="95" fill="white" />
                 </mask>
               </defs>
 
-              {/* Decorative Hatch Boxes behind letter areas (like reference) */}
-              <g className="name-item" opacity="0.45">
+              {/* Decorative Hatch Boxes behind letter areas */}
+              <g className="name-item" opacity="0.4">
                 <rect
-                  x="300"
+                  x="480"
                   y="25"
-                  width="135"
+                  width="180"
                   height="95"
                   fill="url(#hatch-fill)"
                   mask="url(#hatch-box-1)"
                 />
                 <rect
-                  x="480"
+                  x="420"
                   y="160"
-                  width="140"
+                  width="180"
                   height="95"
                   fill="url(#hatch-fill)"
                   mask="url(#hatch-box-2)"
                 />
               </g>
 
-              {/* Line 1: Saja dur */}
+              {/* Line 1: Sajadur */}
               <g className="name-item">
                 <text
                   x="0"
                   y="110"
                   className="font-michroma"
                   fill="#EDE8E8"
-                  fontSize="122"
+                  fontSize="120"
                   fontWeight="900"
                   letterSpacing="-1"
                 >
-                  Saja
-                </text>
-                <text
-                  x="365"
-                  y="110"
-                  className="font-michroma"
-                  fill="#EDE8E8"
-                  fontSize="122"
-                  fontWeight="900"
-                  letterSpacing="-1"
-                >
-                  dur
+                  Sajadur
                 </text>
               </g>
 
@@ -215,22 +204,11 @@ export default function Hero() {
                   y="245"
                   className="font-michroma"
                   fill="#EDE8E8"
-                  fontSize="122"
+                  fontSize="120"
                   fontWeight="900"
                   letterSpacing="-1"
                 >
-                  Rah
-                </text>
-                <text
-                  x="355"
-                  y="245"
-                  className="font-michroma"
-                  fill="#EDE8E8"
-                  fontSize="122"
-                  fontWeight="900"
-                  letterSpacing="-1"
-                >
-                  man
+                  Rahman
                 </text>
               </g>
             </svg>
