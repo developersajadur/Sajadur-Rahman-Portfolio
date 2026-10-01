@@ -36,14 +36,24 @@ export const metadata: Metadata = {
   publisher: siteConfig.name,
   keywords: [
     "Sajadur Rahman",
+    "Md Sajadur Rahman",
+    "Md. Sajadur Rahman",
+    "MD Sajadur Rahman",
     "Sajadur Rahman Developer",
+    "Sajadur Rahman Portfolio",
+    "Sajadur Rahman Full Stack Developer",
+    "Sajadur Rahman Software Engineer",
     "Full Stack Developer",
+    "Full Stack Engineer",
+    "Software Engineer",
+    "Software Developer",
     "Backend Developer",
+    "Backend Engineer",
     "Node.js Developer",
-    "NestJS",
+    "NestJS Developer",
     "TypeScript Developer",
     "Go Developer",
-    "Golang",
+    "Golang Developer",
     "Docker",
     "AWS Cloud",
     "AI Engineer",
@@ -77,7 +87,7 @@ export const metadata: Metadata = {
         url: "/sajadur-logo.png",
         width: 1200,
         height: 630,
-        alt: `${siteConfig.name} - Full Stack & AI Engineer`,
+        alt: "Sajadur Rahman (Md Sajadur Rahman) - Full Stack Developer & Software Engineer",
       },
     ],
   },
@@ -101,7 +111,7 @@ export const metadata: Metadata = {
   },
 };
 
-// JSON-LD Structured Data for Google Rich Results
+// JSON-LD Structured Data for Google Rich Results & Knowledge Graph
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -109,8 +119,14 @@ const jsonLd = {
       "@type": "Person",
       "@id": `${siteConfig.url}/#person`,
       name: siteConfig.name,
+      alternateName: [
+        "Md Sajadur Rahman",
+        "Md. Sajadur Rahman",
+        "MD Sajadur Rahman",
+        "Sajadur Rahman Developer",
+      ],
       url: siteConfig.url,
-      jobTitle: "Full Stack & AI Engineer",
+      jobTitle: "Full Stack Developer & Software Engineer",
       description: siteConfig.description,
       image: `${siteConfig.url}/sajadur-rahman.jpeg`,
       sameAs: [
@@ -119,7 +135,9 @@ const jsonLd = {
         siteConfig.socials.facebook,
       ],
       knowsAbout: [
-        "Full Stack Web Development",
+        "Full Stack Development",
+        "Full Stack Engineering",
+        "Software Engineering",
         "Node.js",
         "NestJS",
         "TypeScript",
@@ -136,6 +154,7 @@ const jsonLd = {
       "@id": `${siteConfig.url}/#website`,
       url: siteConfig.url,
       name: siteConfig.name,
+      alternateName: "Md Sajadur Rahman Portfolio",
       description: siteConfig.description,
       publisher: {
         "@id": `${siteConfig.url}/#person`,

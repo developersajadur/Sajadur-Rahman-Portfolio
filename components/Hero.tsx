@@ -124,6 +124,11 @@ export default function Hero() {
             Hi, I am
           </p>
 
+          {/* SEO Semantic H1 Heading for Google indexing & Rich Snippets */}
+          <h1 className="sr-only">
+            Sajadur Rahman (Md Sajadur Rahman) — Full Stack Developer, Full Stack Engineer &amp; Software Developer
+          </h1>
+
           {/* SVG Typography with Hatch Patterns (matches reference layout & typography) */}
           <div className="w-full max-w-[850px] overflow-visible hero-zoom-target">
             <svg
@@ -132,6 +137,8 @@ export default function Hero() {
               viewBox="0 0 850 290"
               className="w-full h-auto cursor-pointer"
               style={{ overflow: "visible" }}
+              role="img"
+              aria-label="Sajadur Rahman"
             >
               <defs>
                 {/* Diagonal striped fill pattern */}
