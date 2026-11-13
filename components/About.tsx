@@ -105,8 +105,9 @@ export default function About() {
               I write clean, efficient{" "}
               <span className="text-cyan-300 font-medium">TypeScript and Go</span> code, build{" "}
               <span className="text-violet-300 font-medium">RAG-powered AI solutions</span> using
-              semantic embeddings and vector search (pgvector), and develop scalable ERP,
-              e-commerce, and SaaS platforms equipped with secure payment gateways.
+              semantic embeddings and vector search (pgvector), develop{" "}
+              <span className="text-violet-300 font-medium">MCP (Model Context Protocol)</span> tools &amp; servers,
+              and create scalable ERP, e-commerce, and SaaS platforms equipped with secure payment gateways.
             </p>
             <p>
               My focus is always on engineering scalable, maintainable architectures that deliver

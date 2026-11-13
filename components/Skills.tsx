@@ -40,7 +40,7 @@ const skillCategories = [
     title: "AI Engineering",
     color: "from-amber-500 to-orange-500",
     border: "border-amber-500/20",
-    skills: ["RAG", "Embeddings", "Vector Search", "pgvector", "Semantic Search"],
+    skills: ["RAG", "MCP", "Embeddings", "Vector Search", "pgvector", "Semantic Search"],
   },
   {
     title: "Databases",

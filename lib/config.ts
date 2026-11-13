@@ -2,9 +2,9 @@ export const siteConfig = {
   name: "Sajadur Rahman",
   alternateNames: ["Md Sajadur Rahman", "Md. Sajadur Rahman", "MD Sajadur Rahman"],
   url: "https://www.sajadurrahman.com",
-  title: "Sajadur Rahman (Md Sajadur Rahman) | Full Stack Developer & Software Engineer",
+  title: "Sajadur Rahman | Full Stack Developer & Software Engineer",
   description:
-    "Portfolio of Sajadur Rahman (Md Sajadur Rahman) — Full Stack Developer & Software Engineer specializing in Node.js, Go, cloud architecture, and AI systems.",
+    "Portfolio of Sajadur Rahman — Full Stack Developer & Software Engineer specializing in Node.js, Go, cloud architecture, and AI systems.",
   email: "sajadurrahman.dev@gmail.com",
   socials: {
     facebook: "https://www.facebook.com/sajadurrahman.dev",
